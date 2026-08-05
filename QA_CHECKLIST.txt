@@ -9,3 +9,8 @@
 V13 notes:
 - Case Study logos now use transparent logo stage instead of solid white panel.
 - Yeongju Blacksmith logo replaced with user-provided raster, background removed, upscaled, and linked as local PNG asset.
+
+V14 notes:
+- Deleted two explanatory paragraphs requested by the user.
+- Case Study Library heading changed to single-column after paragraph removal.
+- Replaced Yeongju Blacksmith logo with the latest user-supplied transparent PNG.
