@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="description" content="산업현장 관련 글로벌 기업과 국내외 스타트업 사례 아카이브" />
+  <title>Case Study | 블루컬러 라이프스타일 오픈이노베이션</title>
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="case-study.css" />
+  <link rel="stylesheet" href="site-v10.css" />
+</head>
+<body class="case-page" data-page="case-study">
+  <header class="nav case-nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand" aria-label="홈으로 이동">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span class="brand-text">중장비선수들 × 더인벤션랩<small>BLUE-COLLAR OPEN INNOVATION</small></span>
+      </a>
+      <nav class="nav-links" aria-label="주요 메뉴">
+        <a href="index.html">Home</a>
+        <a href="case-study.html" aria-current="page">Case Study</a>
+        <a href="index.html#apply" class="nav-cta">지원 안내</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="case-hero">
+      <div class="case-hero-grid" aria-hidden="true"></div>
+      <div class="case-hero-orbit" aria-hidden="true"></div>
+      <div class="container case-hero-layout">
+        <div class="case-hero-copy">
+          <div class="case-breadcrumb" aria-label="현재 위치"><a href="index.html">HOME</a><span>/</span><b>CASE STUDY</b></div>
+          <span class="kicker">Industrial Case Archive</span>
+          <h1>현장에서 시작해<br /><em>시장과 브랜드</em>를 만든 사례들</h1>
+          <p>워크웨어에서 글로벌 브랜드로 성장한 기업, 산업현장 문제를 제품과 플랫폼으로 해결한 국내외 스타트업, 그리고 장인 제품의 해외 진출 사례를 구분해 정리합니다.</p>
+        </div>
+
+        <aside class="case-hero-panel" aria-label="사례집 현황">
+          <div class="case-hero-panel-head"><span>ARCHIVE INDEX</span><i></i></div>
+          <dl>
+            <div><dt>등록 사례</dt><dd><strong id="caseTotal">00</strong><small>CASES</small></dd></div>
+            <div><dt>글로벌 대기업</dt><dd><strong id="enterpriseTotal">00</strong><small>COMPANIES</small></dd></div>
+            <div><dt>국내외 성장사례</dt><dd><strong id="startupTotal">00</strong><small>CASES</small></dd></div>
+          </dl>
+          <p>공식 홈페이지와 공개 기사에 근거해 기업·제품·성장경로를 요약한 독립 참고 아카이브입니다.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="case-reference-banner" aria-label="사례집 안내">
+      <div class="container case-reference-banner-inner">
+        <strong>REFERENCE NOTICE</strong>
+        <p>소개 기업은 산업현장 관련 제품과 비즈니스모델의 이해를 돕기 위한 독립적인 참고 사례입니다. 본 프로그램의 참여사·선정사·협력사 또는 투자대상이 아니며, 각 기업의 로고와 상표에 관한 권리는 해당 권리자에게 있습니다.</p>
+      </div>
+    </section>
+
+    <section class="case-library section" id="library">
+      <div class="container">
+        <header class="case-library-head reveal">
+          <div>
+            <span class="kicker">Browse Cases</span>
+            <h2>Case Study Library</h2>
+          </div>
+          <p>기업의 출발점, 제품과 서비스, 비즈니스모델을 중심으로 살펴볼 수 있습니다. 글로벌 대기업과 국내외 스타트업·성장기업을 별도 섹션으로 구성했습니다.</p>
+        </header>
+
+        <div class="case-control-shell reveal">
+          <div class="case-controls-row">
+            <label class="case-search" for="caseSearch">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+              <span class="sr-only">사례 검색</span>
+              <input type="search" id="caseSearch" placeholder="기업명, 제품, 키워드를 검색하세요" autocomplete="off" />
+              <button type="button" id="caseSearchClear" class="case-search-clear" aria-label="검색어 지우기" hidden>×</button>
+            </label>
+            <label class="case-sort" for="caseSort">
+              <span>정렬</span>
+              <select id="caseSort">
+                <option value="recommended">추천 순</option>
+                <option value="company">기업명 순</option>
+                <option value="category">분야 순</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="case-filter-block">
+            <div class="case-filter-label">CASE TYPE</div>
+            <div class="case-filters case-group-filters" id="caseGroupFilters" aria-label="사례 유형 필터"></div>
+          </div>
+          <div class="case-filter-block case-filter-block-category">
+            <div class="case-filter-label">FIELD</div>
+            <div class="case-filters" id="caseFilters" aria-label="사례 분야 필터"></div>
+          </div>
+        </div>
+
+        <div class="case-results-bar reveal">
+          <p id="caseResultsSummary" aria-live="polite">전체 사례를 불러오는 중입니다.</p>
+          <button type="button" id="caseReset" class="case-reset">필터 초기화</button>
+        </div>
+
+        <div class="case-section-list" id="caseSections" aria-live="polite"></div>
+
+        <div class="case-empty" id="caseEmpty" hidden>
+          <span aria-hidden="true">⌕</span>
+          <h3>조건에 맞는 사례가 없습니다.</h3>
+          <p>검색어를 줄이거나 사례 유형과 분야 필터를 초기화해 주세요.</p>
+          <button type="button" data-case-reset>전체 사례 보기</button>
+        </div>
+
+        <div class="case-disclaimer reveal">
+          <strong>CONTENT POLICY</strong>
+          <p>내용은 각 기업의 공식 홈페이지와 공개 기사 자료를 바탕으로 요약했습니다. 실제 제품·서비스 현황과 거래조건은 각 기업의 최신 공지를 확인해야 하며, 본 페이지의 소개는 협력·추천 또는 투자를 의미하지 않습니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-cta">
+      <div class="container case-cta-inner">
+        <div><span>FROM CASE TO FIELD</span><h2>현장에 필요한 제품과 솔루션을<br />새로운 사업 기회로 연결합니다.</h2><p>사례집은 모집 분야의 범위를 이해하기 위한 참고자료이며, 프로그램은 별도의 선발·투자심사를 통해 운영됩니다.</p></div>
+        <a class="btn btn-primary" href="index.html#apply">프로그램 지원 안내
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <div class="case-modal" id="caseModal" hidden>
+    <div class="case-modal-backdrop" data-case-close></div>
+    <article class="case-modal-panel" role="dialog" aria-modal="true" aria-labelledby="caseModalTitle">
+      <button class="case-modal-close" type="button" data-case-close aria-label="사례 상세 닫기"><span aria-hidden="true">×</span></button>
+      <div id="caseModalContent"></div>
+    </article>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><strong>중장비선수들 × 더인벤션랩</strong><br />Blue-Collar Lifestyle Open Innovation 1st</div>
+      <div class="footer-links"><a href="mailto:business@roailab.com">business@roailab.com</a><span>© 2026 All rights reserved.</span><a href="#top">TOP ↑</a></div>
+    </div>
+  </footer>
+
+  <script src="cases-data.js"></script>
+  <script src="script.js"></script>
+  <script src="case-study.js"></script>
+</body>
+</html>

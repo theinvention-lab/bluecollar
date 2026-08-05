@@ -31,12 +31,16 @@ const filmCarousel = document.querySelector('[data-film-carousel]');
 if (filmCarousel) {
   const films = [
     {
+      videoId: 'QFnF8ZRzsyY',
+      title: '중장비선수들 브랜드 필름'
+    },
+    {
       videoId: 'ErSLfkAjK5M',
-      title: '중장비선수들 브랜드 필름 01'
+      title: '대창이용원'
     },
     {
       videoId: 'mfmNR8v3RRI',
-      title: '중장비선수들 브랜드 필름 02'
+      title: '들리지 않아도 들을 수 있어요'
     }
   ];
 

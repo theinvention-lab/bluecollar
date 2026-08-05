@@ -1,0 +1,29 @@
+V10 QA CHECKLIST
+
+정적 검증
+- index.html / case-study.html 로컬 CSS·JS·이미지 경로 확인: 누락 없음
+- styles.css / case-study.css / site-v10.css CSS 파싱 오류: 0건
+- script.js / home-cases.js / case-study.js / cases-data.js 구문 오류: 0건
+- href="#" 비활성 링크 제거
+- 프로그램 적용 관점 필드·화면 문구 미포함
+- 메이사 사례 미포함
+
+기능 검증
+- Home 대표 Case Study 카드: 3건 정상 생성
+- 브랜드 필름 좌우 전환: 01/03 → 02/03 정상 변경
+- Case Study 전체 사례: 17건
+- Case Study 섹션: 글로벌 대기업 / 국내 스타트업 / 해외 스타트업 / 번외 사례 4개
+- 검색·필터 초기화 정상 작동
+- 상세 모달 열기·닫기 정상 작동
+- 콘솔 JavaScript 오류: 0건
+
+반응형 검증
+- 1440px 데스크톱 가로 오버플로 없음
+- 390px 모바일 가로 오버플로 없음
+- Home·Case Study 모바일 내비게이션 유지
+- 카드, 2 Track, 운영기관, 지원 안내가 모바일 1열로 전환
+
+외부 콘텐츠
+- YouTube iframe: youtube-nocookie.com + strict-origin-when-cross-origin
+- 외부 로고 로딩 실패 시 기업명 텍스트로 대체
+- 정식 배포 전 보유한 CI 원본을 assets/logos에 저장해 교체 권장
