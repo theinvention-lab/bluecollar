@@ -8,7 +8,7 @@ if ('IntersectionObserver' in window) {
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.12 });
+  }, { threshold: 0.1 });
   revealItems.forEach((item) => observer.observe(item));
 } else {
   revealItems.forEach((item) => item.classList.add('is-visible'));
@@ -17,7 +17,7 @@ if ('IntersectionObserver' in window) {
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener('click', (event) => {
     const targetId = anchor.getAttribute('href');
-    if (targetId === '#') return;
+    if (!targetId || targetId === '#') return;
     const target = document.querySelector(targetId);
     if (!target) return;
     event.preventDefault();
@@ -25,24 +25,14 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-
 const filmCarousel = document.querySelector('[data-film-carousel]');
 
 if (filmCarousel) {
-  const films = [
-    {
-      videoId: 'QFnF8ZRzsyY',
-      title: '중장비선수들 브랜드 필름'
-    },
-    {
-      videoId: 'ErSLfkAjK5M',
-      title: '대창이용원'
-    },
-    {
-      videoId: 'mfmNR8v3RRI',
-      title: '들리지 않아도 들을 수 있어요'
-    }
-  ];
+  const filmTabs = [...filmCarousel.querySelectorAll('[data-film-select]')];
+  const films = filmTabs.map((button) => ({
+    videoId: button.dataset.videoId,
+    title: button.dataset.title
+  })).filter((film) => film.videoId && film.title);
 
   const frame = filmCarousel.querySelector('#brandFilmFrame');
   const label = filmCarousel.querySelector('#brandFilmLabel');
@@ -61,6 +51,7 @@ if (filmCarousel) {
   };
 
   const renderFilm = (nextIndex) => {
+    if (!films.length || !frame || !label || !counter || !externalLink) return;
     currentIndex = (nextIndex + films.length) % films.length;
     const film = films[currentIndex];
     frame.src = buildEmbedUrl(film.videoId);
@@ -69,11 +60,17 @@ if (filmCarousel) {
     externalLink.href = `https://www.youtube.com/watch?v=${film.videoId}`;
     externalLink.setAttribute('aria-label', `${film.title} YouTube에서 새 창으로 보기`);
     counter.textContent = `${String(currentIndex + 1).padStart(2, '0')} / ${String(films.length).padStart(2, '0')}`;
+    filmTabs.forEach((tab, index) => {
+      const selected = index === currentIndex;
+      tab.classList.toggle('is-active', selected);
+      tab.setAttribute('aria-selected', String(selected));
+      tab.tabIndex = selected ? 0 : -1;
+    });
   };
 
-  prevButton.addEventListener('click', () => renderFilm(currentIndex - 1));
-  nextButton.addEventListener('click', () => renderFilm(currentIndex + 1));
-
+  prevButton?.addEventListener('click', () => renderFilm(currentIndex - 1));
+  nextButton?.addEventListener('click', () => renderFilm(currentIndex + 1));
+  filmTabs.forEach((tab, index) => tab.addEventListener('click', () => renderFilm(index)));
   filmCarousel.addEventListener('keydown', (event) => {
     if (event.key === 'ArrowLeft') renderFilm(currentIndex - 1);
     if (event.key === 'ArrowRight') renderFilm(currentIndex + 1);

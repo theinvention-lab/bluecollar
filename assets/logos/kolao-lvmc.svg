@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" role="img" aria-hidden="true">
+<rect width="800" height="240" rx="24" fill="transparent"/>
+
+<g transform="translate(72 55)">
+<path d="M18 65 77 8l59 57-59 57Z" fill="#0E6BA8"/>
+<path d="M77 8 136 65 77 82 18 65Z" fill="#24A36A"/>
+<circle cx="77" cy="65" r="20" fill="#fff"/>
+</g>
+<text x="245" y="122" fill="#123B55" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="68" font-weight="900" text-anchor="start" letter-spacing="2">KOLAO</text><text x="248" y="166" fill="#4F6C79" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="28" font-weight="700" text-anchor="start" letter-spacing="3">LVMC HOLDINGS</text>
+</svg>

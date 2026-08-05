@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" role="img" aria-hidden="true">
+<rect width="800" height="240" rx="24" fill="transparent"/>
+
+<g transform="translate(70 54)"><rect width="132" height="132" rx="28" fill="#126B50"/><path d="M30 89V43h72v46" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round"/><path d="M44 43V27h44v16M53 64h26" fill="none" stroke="#F0C83C" stroke-width="10" stroke-linecap="round"/></g>
+<text x="235" y="140" fill="#123D2E" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="82" font-weight="900" text-anchor="start" letter-spacing="-2">공새로</text><text x="242" y="176" fill="#6D7A73" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="24" font-weight="800" text-anchor="start" letter-spacing="4">GONGSAERO</text>
+</svg>

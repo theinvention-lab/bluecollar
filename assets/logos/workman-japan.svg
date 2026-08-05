@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" role="img" aria-hidden="true">
+<rect width="800" height="240" rx="24" fill="transparent"/>
+
+<rect x="70" y="54" width="660" height="126" rx="8" fill="#1166A8"/>
+<rect x="70" y="176" width="660" height="10" fill="#F28C00"/>
+<text x="400" y="145" fill="#fff" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="78" font-weight="900" text-anchor="middle" letter-spacing="5">WORKMAN</text>
+</svg>
