@@ -14,3 +14,6 @@ V14 notes:
 - Deleted two explanatory paragraphs requested by the user.
 - Case Study Library heading changed to single-column after paragraph removal.
 - Replaced Yeongju Blacksmith logo with the latest user-supplied transparent PNG.
+
+V17 notes:
+- Minimum investment amount updated from KRW 30–50 million to KRW 50 million and above.
