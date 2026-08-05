@@ -1,34 +1,27 @@
-블루컬러 라이프스타일 오픈이노베이션 1기 랜딩페이지 V4
+BLUE-COLLAR OPEN INNOVATION WEBSITE · V10
 
-1. index.html이 있는 폴더를 웹서버에 올리면 페이지를 확인할 수 있습니다.
-2. 이미지 교체: assets/hero-forklifts.png
-3. 모집 일정·접수 링크: index.html의 APPLY NOW 섹션에서 수정
-4. 키 컬러: styles.css 최상단 :root 변수에서 수정
-5. 브랜드 필름: script.js의 films 배열에서 videoId와 제목을 수정
-6. 운영기관 로고: index.html의 #partners 섹션 내 SVG를 정식 CI 파일로 교체 가능
-7. 담당 이메일: business@roailab.com
+GitHub Pages 업로드
+1. 이 폴더 안의 파일 전체를 GitHub 저장소 최상단(root)에 업로드합니다.
+2. Settings → Pages → Deploy from a branch → main / root를 선택합니다.
+3. index.html과 case-study.html이 저장소 최상단에 있어야 합니다.
 
-[V4 반영사항]
-- YouTube iframe 도메인을 youtube-nocookie.com으로 변경
-- 문서 전체에 strict-origin-when-cross-origin Referrer Policy 적용
-- HTTP·HTTPS 배포 환경에서는 현재 도메인을 origin 파라미터로 자동 전달
-- 좌우 버튼으로 두 편의 브랜드 필름 전환
-- 영상별 'YouTube에서 보기' 대체 링크를 함께 제공
-- 영상 전환 시 iframe, 제목, 번호, 외부 링크가 함께 변경
+페이지
+- index.html: 프로그램 Home
+- case-study.html: Case Study 아카이브
 
-[오류 153 방지 및 로컬 확인]
-YouTube 오류 153은 file://로 HTML을 직접 열어 Referer가 전달되지 않을 때 발생할 수 있습니다.
-HTML 파일을 더블클릭하지 말고 아래 방식으로 localhost에서 확인하십시오.
+콘텐츠 관리
+- 사례 추가/수정: cases-data.js
+- Home 대표 사례: 글로벌 대기업·국내 스타트업·해외 스타트업에서 각 1건을 자동 노출
+- 공통 UI 보정: site-v10.css
 
-Windows PowerShell 또는 명령 프롬프트:
-1) index.html이 있는 폴더에서 터미널 열기
-2) py -m http.server 8000
-   py 명령이 없으면: python -m http.server 8000
-3) 브라우저에서 http://localhost:8000/ 접속
+영상
+- YouTube는 youtube-nocookie.com, strict-origin-when-cross-origin, 현재 origin 자동 전달을 사용합니다.
+- file:// 직접 실행보다 GitHub Pages 또는 localhost 환경에서 확인하는 것이 안전합니다.
 
-정식 배포 시에는 HTTPS 환경을 권장합니다. Vercel, Netlify, GitHub Pages 또는 기존 홈페이지 서버에 올릴 수 있습니다.
-브라우저·네트워크 정책으로 영상이 차단되는 경우에는 플레이어 하단의 'YouTube에서 보기' 링크를 이용할 수 있습니다.
+로고
+- 외부 로고가 정상 로딩될 때만 이미지가 표시됩니다.
+- 로딩 실패 시 기업명 텍스트가 표시되어 카드 레이아웃이 깨지지 않습니다.
+- 최종 공개 전 정식 CI 파일을 assets/logos에 저장하고 cases-data.js 경로를 교체하는 방식을 권장합니다.
 
-[배포 참고]
-- 모집 기간과 지원 접수 링크는 확정 후 반영해야 합니다.
-- 투자 규모와 목표 지분율은 투자심사 및 계약 협의에 따라 달라질 수 있습니다.
+문의 이메일
+business@roailab.com
