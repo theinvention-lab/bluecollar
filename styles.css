@@ -227,7 +227,8 @@ img { max-width: 100%; display: block; }
 .partner-card-til { background:#fffdfd; }
 .partner-card-head { min-height:112px; display:flex; align-items:flex-start; justify-content:space-between; gap:22px; padding-bottom:28px; border-bottom:1px solid var(--line); }
 .partner-logo { display:block; width:min(100%, 300px); height:92px; }
-.partner-logo svg { width:100%; height:100%; display:block; }
+.partner-logo svg, .partner-logo img { width:100%; height:100%; display:block; object-fit:contain; object-position:left center; }
+.partner-logo-til img { object-position:left center; }
 .partner-logo-9dan { width:min(100%, 280px); }
 .partner-role { margin-top:6px; color:var(--green); font-size:10px; font-weight:900; letter-spacing:.13em; text-align:right; }
 .partner-copy { padding:30px 0 28px; }
