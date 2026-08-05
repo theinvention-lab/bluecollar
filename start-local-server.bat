@@ -1,0 +1,14 @@
+@echo off
+cd /d "%~dp0"
+echo.
+echo Blue-collar landing page local server
+
+echo Open http://localhost:8000/ in your browser.
+echo Press Ctrl+C to stop the server.
+echo.
+where py >nul 2>nul
+if %errorlevel%==0 (
+  py -m http.server 8000
+) else (
+  python -m http.server 8000
+)
