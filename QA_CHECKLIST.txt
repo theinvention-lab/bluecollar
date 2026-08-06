@@ -17,3 +17,8 @@ V14 notes:
 
 V17 notes:
 - Minimum investment amount updated from KRW 30–50 million to KRW 50 million and above.
+
+V18 additions:
+- Added six domestic startup case studies: Linkflow, Safeware, Rootrix, ReFeed, MERDI373, AnyEats World (AEAT).
+- Added local transparent SVG wordmarks for all six companies.
+- Added foodtech category styling and updated cache-busting query strings.

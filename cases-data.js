@@ -708,5 +708,311 @@ window.CASE_STUDIES = [
       "K호미",
       "K-호미"
     ]
+  },
+  {
+    "id": "linkflow-ai-wearable-camera",
+    "date": "2026-08-06",
+    "priority": 186,
+    "featured": false,
+    "caseType": "startup",
+    "caseTypeLabel": "스타트업·성장기업",
+    "region": "domestic",
+    "regionLabel": "국내",
+    "country": "KOREA",
+    "company": "링크플로우",
+    "product": "AI Wearable Camera · NEXX / P / FITT Series",
+    "category": "safety",
+    "categoryLabel": "산업안전",
+    "storyTag": "WEARABLE CAMERA · FIELD INTELLIGENCE",
+    "logo": "assets/logos/linkflow-ai-wearable-camera.svg",
+    "logoFallback": "",
+    "logoText": "LINKFLOW",
+    "headline": "현장 영상 기록과 실시간 관제를 연결하는 AI 웨어러블 카메라",
+    "summary": "링크플로우는 넥밴드형 360도 카메라, 바디캠, 5G 영상전송 장비와 전용 소프트웨어를 개발합니다. 산업현장과 공공기관에서 작업자의 시점으로 영상을 기록하고, 실시간 스트리밍·관제와 AI 자동 모자이크 등 현장 운영 기능을 제공합니다.",
+    "problem": "산업현장과 공공업무에서는 작업자가 양손을 사용하면서도 상황을 기록하고 원격으로 공유해야 합니다. 동시에 개인정보 보호, 영상 보안, 장시간 운용과 실시간 관제 요건을 충족해야 합니다.",
+    "solution": "360도 넥밴드 카메라와 바디캠, 5G 영상전송 장비에 실시간 스트리밍, AI 자동 모자이크, 음성 감지 및 관제 소프트웨어를 결합해 현장 영상 수집과 활용 과정을 통합합니다.",
+    "businessModel": "기관·기업 대상 웨어러블 카메라 및 영상전송 장비 공급과 전용 소프트웨어·관제 시스템 구축을 결합한 B2B 하드웨어·솔루션 모델입니다.",
+    "detailLabels": {
+      "problem": "현장 과제",
+      "solution": "제품·솔루션",
+      "businessModel": "사업 구조"
+    },
+    "tags": [
+      "웨어러블 카메라",
+      "360도 영상",
+      "AI 관제",
+      "5G",
+      "현장기록"
+    ],
+    "officialUrl": "https://linkflow.co.kr/",
+    "officialLabel": "링크플로우 공식 홈페이지",
+    "articles": [
+      {
+        "publisher": "더벨",
+        "label": "글로벌 AI 카메라 시장에 도전하는 링크플로우",
+        "url": "https://www.thebell.co.kr/front/newsview.asp?key=202605061422155880105595"
+      }
+    ],
+    "aliases": [
+      "LINKFLOW",
+      "FITT360",
+      "NEXX360",
+      "P3000",
+      "AI 카메라"
+    ]
+  },
+  {
+    "id": "safeware-smart-airbag",
+    "date": "2026-08-06",
+    "priority": 185,
+    "featured": false,
+    "caseType": "startup",
+    "caseTypeLabel": "스타트업·성장기업",
+    "region": "domestic",
+    "regionLabel": "국내",
+    "country": "KOREA",
+    "company": "세이프웨어",
+    "product": "Smart Fall Protection Airbag · C3 / C-Light",
+    "category": "safety",
+    "categoryLabel": "산업안전",
+    "storyTag": "SMART PPE · FALL PROTECTION",
+    "logo": "assets/logos/safeware-smart-airbag.svg",
+    "logoFallback": "",
+    "logoText": "SAFEWARE",
+    "headline": "추락을 감지해 충돌 전에 팽창하는 산업용 스마트 에어백",
+    "summary": "세이프웨어는 산업현장과 일상·레저 환경에서 사용하는 개인형 스마트 인체보호 솔루션을 개발합니다. 대표 제품인 산업용 추락보호 에어백은 센서와 알고리즘으로 추락을 감지하고 에어백을 팽창시켜 후두부부터 엉치 부위까지 주요 신체 부위를 보호합니다.",
+    "problem": "고소작업과 이동식 작업대 등에서는 안전고리 미체결이나 순간적인 발 헛디딤으로 추락사고가 발생할 수 있으며, 기존 보호구만으로는 충돌 순간의 신체 충격을 충분히 줄이기 어렵습니다.",
+    "solution": "고감도 센서, 추락 감지 알고리즘과 자체 인플레이터를 웨어러블 조끼에 적용해 추락 직후 에어백을 전개하고, 앱 연동을 통해 제품 상태와 SOS 알림을 확인할 수 있도록 구성했습니다.",
+    "businessModel": "건설·제조·유통·항공·중공업 등 산업 고객 대상 안전장비 공급을 중심으로, 제품 판매와 기업 단위 도입·관리 서비스를 제공하는 B2B 산업안전 모델입니다.",
+    "detailLabels": {
+      "problem": "현장 과제",
+      "solution": "제품·솔루션",
+      "businessModel": "사업 구조"
+    },
+    "tags": [
+      "스마트 PPE",
+      "추락보호",
+      "웨어러블 에어백",
+      "산업안전",
+      "센서"
+    ],
+    "officialUrl": "https://safeware.co.kr/",
+    "officialLabel": "세이프웨어 공식 홈페이지",
+    "articles": [
+      {
+        "publisher": "이데일리",
+        "label": "산업용 스마트 추락보호 에어백 누적 공급 사례",
+        "url": "https://m.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02958566642303728"
+      }
+    ],
+    "aliases": [
+      "SAFEWARE",
+      "C3",
+      "C-Light",
+      "스마트 에어백"
+    ]
+  },
+  {
+    "id": "rootrix-tree-distribution",
+    "date": "2026-08-06",
+    "priority": 184,
+    "featured": false,
+    "caseType": "startup",
+    "caseTypeLabel": "스타트업·성장기업",
+    "region": "domestic",
+    "regionLabel": "국내",
+    "country": "KOREA",
+    "company": "루트릭스",
+    "product": "Data-driven B2B Tree Distribution Platform",
+    "category": "procurement",
+    "categoryLabel": "건설조달·현장DX",
+    "storyTag": "LANDSCAPE SUPPLY · DATA COMMERCE",
+    "logo": "assets/logos/rootrix-tree-distribution.svg",
+    "logoFallback": "",
+    "logoText": "ROOTRIX",
+    "headline": "수목 농장 데이터를 기반으로 견적·구매·배송을 통합한 조경수 유통 플랫폼",
+    "summary": "루트릭스는 전국 수목 농장 데이터를 기반으로 조경수 견적부터 구매, 품질 확인과 현장 납품까지 전 과정을 관리합니다. 가격과 품질 정보가 비표준화된 조경수 시장에서 시공사·설계사와 생산 농장을 연결하는 B2B 유통 플랫폼을 운영합니다.",
+    "problem": "조경수 거래는 규격과 품질 정보가 표준화되지 않고, 여러 농장과 운송업체를 개별적으로 확인해야 해 견적과 납기 관리에 많은 시간이 소요됩니다.",
+    "solution": "농장별 수목 재고와 규격 데이터를 축적하고, 온라인 견적·대체 수종 제안·계약·배송·현장 수령까지 하나의 프로세스로 관리합니다.",
+    "businessModel": "조경 시공사와 설계사 대상 수목 견적·구매·납품을 통합 수행하는 B2B 유통·거래 서비스 모델이며, 선결제 지원과 프로젝트 단위 조달 관리도 제공합니다.",
+    "detailLabels": {
+      "problem": "시장 과제",
+      "solution": "제품·서비스",
+      "businessModel": "사업 구조"
+    },
+    "tags": [
+      "조경수",
+      "B2B 유통",
+      "건설조달",
+      "데이터 플랫폼",
+      "현장납품"
+    ],
+    "officialUrl": "https://www.rootrix.com/",
+    "officialLabel": "루트릭스 공식 홈페이지",
+    "articles": [
+      {
+        "publisher": "루트릭스 공식 블로그",
+        "label": "조경수 유통 플랫폼 성장 사례",
+        "url": "https://www.rootrix.com/blog/rootrix-distribution-platform"
+      }
+    ],
+    "aliases": [
+      "ROOTRIX",
+      "조경수 플랫폼",
+      "수목 유통"
+    ]
+  },
+  {
+    "id": "refeed-waste-data-solution",
+    "date": "2026-08-06",
+    "priority": 183,
+    "featured": false,
+    "caseType": "startup",
+    "caseTypeLabel": "스타트업·성장기업",
+    "region": "domestic",
+    "regionLabel": "국내",
+    "country": "KOREA / VIETNAM",
+    "company": "리피드",
+    "product": "Waste Data & Used Cooking Oil Solution",
+    "category": "circular",
+    "categoryLabel": "리퍼비시·순환경제",
+    "storyTag": "WASTE TRACEABILITY · RESOURCE CIRCULATION",
+    "logo": "assets/logos/refeed-waste-data-solution.svg",
+    "logoFallback": "",
+    "logoText": "ReFeed",
+    "headline": "폐식용유 배출부터 수거·품질·거래까지 데이터로 연결하는 자원순환 솔루션",
+    "summary": "리피드는 폐기물의 최초 배출시점부터 수거와 활용 단계까지 데이터를 기록하고 관리합니다. 국내에서는 폐기물 통합관리와 수거 데이터 시스템을 운영하고, 베트남에서는 폐식용유를 직접 수거·검증해 지속가능항공유 원료 등으로 거래하는 사업을 전개합니다.",
+    "problem": "폐식용유와 같은 폐자원은 배출처가 분산되어 있고 수거·품질 정보가 불투명해, 재활용 원료의 출처와 처리 과정을 증명하기 어렵습니다.",
+    "solution": "수거 현장의 데이터 획득 장치와 주문·CS 시스템, 폐기물 추적성 관리, ESG 리포트 및 직접 수거·트레이딩을 결합해 폐자원의 이동과 품질 정보를 관리합니다.",
+    "businessModel": "기업 대상 폐기물 통합관리 계약, 수거업체용 데이터 시스템, 폐식용유 직접 수거·트레이딩을 결합한 순환경제·폐기물 데이터 사업 모델입니다.",
+    "detailLabels": {
+      "problem": "시장 과제",
+      "solution": "제품·서비스",
+      "businessModel": "사업 구조"
+    },
+    "tags": [
+      "폐식용유",
+      "폐기물 데이터",
+      "추적성",
+      "순환경제",
+      "SAF"
+    ],
+    "officialUrl": "https://www.refeed.eco/",
+    "officialLabel": "리피드 공식 홈페이지",
+    "articles": [
+      {
+        "publisher": "한국경제",
+        "label": "AI 기반 폐식용유 품질 측정과 글로벌 UCO 플랫폼",
+        "url": "https://plus.hankyung.com/apps/newsinside.view?aid=202602123325d&category=&sns=y"
+      }
+    ],
+    "aliases": [
+      "ReFeed",
+      "더치움",
+      "UCO",
+      "폐식용유 수거"
+    ]
+  },
+  {
+    "id": "merdi373-medical-wear",
+    "date": "2026-08-06",
+    "priority": 182,
+    "featured": false,
+    "caseType": "startup",
+    "caseTypeLabel": "스타트업·성장기업",
+    "region": "domestic",
+    "regionLabel": "국내",
+    "country": "KOREA",
+    "company": "메르디373",
+    "product": "Premium Medical Wear & Hospital Styling",
+    "category": "healthcare-lifestyle",
+    "categoryLabel": "의료현장 제품",
+    "storyTag": "MEDICAL WORKWEAR · HOSPITAL BRANDING",
+    "logo": "assets/logos/merdi373-medical-wear.svg",
+    "logoFallback": "",
+    "logoText": "MERDI373",
+    "headline": "기능성과 디자인을 결합한 메디컬웨어와 병원 맞춤 스타일링",
+    "summary": "메르디373은 의료인의 활동성과 착용 편의성을 고려한 프리미엄 스크럽·가운을 개발하고, 병원의 진료과목과 브랜드 이미지에 맞춘 유니폼·린넨·커튼 등 맞춤 스타일링을 제공합니다.",
+    "problem": "기존 의료 유니폼은 체형과 업무 동작을 충분히 반영하지 못하거나, 병원의 브랜드 이미지와 공간 경험을 일관되게 표현하기 어렵다는 한계가 있습니다.",
+    "solution": "기능성 소재와 스포츠웨어 디자인을 적용한 메디컬웨어를 개발하고, 상담·디자인 제안·맞춤 생산·납품까지 병원별 원스톱 스타일링 프로세스를 제공합니다.",
+    "businessModel": "개인 고객 대상 메디컬웨어 온라인 판매와 병원 대상 맞춤 유니폼·린넨 제작, 브랜딩 패키지를 결합한 B2C·B2B 전문 워크웨어 모델입니다.",
+    "detailLabels": {
+      "problem": "현장 과제",
+      "solution": "제품·서비스",
+      "businessModel": "사업 구조"
+    },
+    "tags": [
+      "메디컬웨어",
+      "스크럽",
+      "맞춤 유니폼",
+      "병원 브랜딩",
+      "워크웨어"
+    ],
+    "officialUrl": "http://www.merdi373.com/",
+    "officialLabel": "메르디373 공식 홈페이지",
+    "articles": [
+      {
+        "publisher": "MERDI373",
+        "label": "메디컬웨어 및 병원 스타일링 브랜드 소개",
+        "url": "https://www.merdi373.com/about"
+      }
+    ],
+    "aliases": [
+      "MERDI373",
+      "메디컬웨어",
+      "병원 유니폼",
+      "스크럽웨어"
+    ]
+  },
+  {
+    "id": "anyeatsworld-aeat-unmanned-food",
+    "date": "2026-08-06",
+    "priority": 181,
+    "featured": false,
+    "caseType": "startup",
+    "caseTypeLabel": "스타트업·성장기업",
+    "region": "domestic",
+    "regionLabel": "국내",
+    "country": "KOREA",
+    "company": "애니이츠월드",
+    "product": "AEAT Smart Unmanned Food Platform",
+    "category": "foodtech",
+    "categoryLabel": "무인식음·푸드테크",
+    "storyTag": "SPECIAL LOCATION · UNMANNED FOOD",
+    "logo": "assets/logos/anyeatsworld-aeat-unmanned-food.svg",
+    "logoFallback": "",
+    "logoText": "AEAT",
+    "headline": "병원·학교·사업장 특수상권에 최적화한 스마트 무인 푸드 플랫폼",
+    "summary": "애니이츠월드는 병원, 학교, 물류센터 등 일반 상권과 운영 조건이 다른 특수상권에 무인 매장과 식음료 자판기 솔루션을 제공합니다. 쉐이크박스 단백질 자판기와 냉장·냉동·커피·라면 장비를 IoT 기반 원격관리와 결합해 운영합니다.",
+    "problem": "24시간 식음료 수요가 있지만 상주 인력을 두기 어렵거나, 일반 매장 운영이 비효율적인 병원·학교·산업시설에서는 공간과 수요에 맞는 식음 인프라를 구축하기 어렵습니다.",
+    "solution": "상권 분석을 바탕으로 무인 매장과 자판기 구성을 설계하고, 식품 공급·원격관제·위생관리·고객응대까지 통합 지원하는 무인 푸드 운영 솔루션을 제공합니다.",
+    "businessModel": "무인 판매 장비 공급, 식품 유통, 매장 운영관리와 가맹·입점 지원을 결합한 특수상권 중심 푸드테크 플랫폼 모델입니다.",
+    "detailLabels": {
+      "problem": "현장 과제",
+      "solution": "제품·서비스",
+      "businessModel": "사업 구조"
+    },
+    "tags": [
+      "무인매장",
+      "스마트 자판기",
+      "특수상권",
+      "IoT 관제",
+      "푸드테크"
+    ],
+    "officialUrl": "https://aeat.co.kr/",
+    "officialLabel": "AEAT 공식 홈페이지",
+    "articles": [
+      {
+        "publisher": "한국경제",
+        "label": "특수상권 무인 푸드 솔루션 애니이츠월드",
+        "url": "https://plus.hankyung.com/apps/newsinside.view?aid=202503210300d&category=&sns=y"
+      }
+    ],
+    "aliases": [
+      "AEAT",
+      "애잇",
+      "쉐이크박스",
+      "무인 푸드"
+    ]
   }
 ];

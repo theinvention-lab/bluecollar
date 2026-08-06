@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" role="img" aria-hidden="true">
+<rect width="800" height="240" fill="transparent"/>
+<g transform="translate(62 50)"><circle cx="70" cy="70" r="58" fill="none" stroke="#25A7D7" stroke-width="15"/><path d="M40 70h60M70 40v60" stroke="#25A7D7" stroke-width="13" stroke-linecap="round"/><circle cx="70" cy="70" r="17" fill="#E84B42"/></g>
+<text x="220" y="143" fill="#123C52" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="78" font-weight="900" letter-spacing="1">LINKFLOW</text>
+</svg>

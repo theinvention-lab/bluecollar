@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" role="img" aria-hidden="true">
+<rect width="800" height="240" fill="transparent"/>
+<g transform="translate(58 42)"><path d="M75 12c45 30 62 64 50 100-9 28-31 47-61 54-29-14-45-36-47-66-2-38 18-68 58-88Z" fill="#36A875"/><path d="M44 133c25-23 50-48 76-80" stroke="#fff" stroke-width="12" stroke-linecap="round"/></g>
+<text x="210" y="143" fill="#176B5D" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="90" font-weight="800" letter-spacing="-1">ReFeed</text>
+</svg>

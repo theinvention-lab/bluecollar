@@ -486,3 +486,6 @@
   .case-page .case-logo-img { max-width:94%; max-height:66px; }
   .case-modal-brand .case-logo-img { max-height:86px; }
 }
+
+/* V18: additional case category */
+.case-card[data-category="foodtech"], .case-modal-brand[data-category="foodtech"] { --card-accent:#b15b24; --card-deep:#623317; --card-soft:#f7e9df; }
