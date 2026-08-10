@@ -22,3 +22,8 @@ V18 additions:
 - Added six domestic startup case studies: Linkflow, Safeware, Rootrix, ReFeed, MERDI373, AnyEats World (AEAT).
 - Added local transparent SVG wordmarks for all six companies.
 - Added foodtech category styling and updated cache-busting query strings.
+
+V20 notes:
+- Added dates to all six Selection Process steps on Home.
+- Synced Apply section recruitment period with Selection Process.
+- Kept the supplied date/weekday labels exactly as provided.

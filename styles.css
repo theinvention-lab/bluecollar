@@ -210,10 +210,12 @@ img { max-width: 100%; display: block; }
 /* Process */
 .process { background: #e8ede9; }
 .process-list { border-top:2px solid var(--deep); }
-.process-item { display:grid; grid-template-columns:100px 1fr 1.35fr; gap:28px; align-items:center; padding:30px 8px; border-bottom:1px solid #bbc6bf; transition:.2s ease; }
+.process-item { display:grid; grid-template-columns:100px minmax(250px,.9fr) minmax(260px,1.25fr) auto; gap:28px; align-items:center; padding:30px 8px; border-bottom:1px solid #bbc6bf; transition:.2s ease; }
 .process-item:hover { background:rgba(255,255,255,.55); padding-inline:18px; }
 .process-index { font-size:13px; font-weight:900; color:var(--green); letter-spacing:.13em; }
+.process-title { display:flex; flex-direction:column; align-items:flex-start; gap:9px; min-width:0; }
 .process-item h3 { margin:0; font-size:27px; letter-spacing:-.035em; }
+.process-date { display:inline-flex; align-items:center; min-height:29px; padding:6px 10px; border:1px solid rgba(18,61,46,.16); border-radius:4px; background:rgba(244,200,63,.18); color:#244e3f; font-size:11px; font-weight:850; line-height:1.45; letter-spacing:-.01em; }
 .process-item p { margin:0; color:var(--muted); }
 .process-item .status { justify-self:end; display:inline-flex; align-items:center; gap:10px; color:var(--green); font-size:12px; font-weight:850; }
 .process-item .status::before { content:""; width:8px; height:8px; border-radius:50%; background:var(--yellow); box-shadow:0 0 0 4px rgba(244,200,63,.25); }
@@ -282,9 +284,11 @@ img { max-width: 100%; display: block; }
   .benefit-grid { grid-template-columns:1fr; }
   .story-layout { grid-template-columns:1fr; }
   .story-copy { position:relative; top:auto; }
-  .process-item { grid-template-columns:58px 1fr; gap:12px 18px; }
+  .process-item { grid-template-columns:58px 1fr; gap:12px 18px; align-items:start; }
+  .process-title { grid-column:2; }
   .process-item p { grid-column:2; }
   .process-item .status { display:none; }
+  .process-date { max-width:100%; white-space:normal; }
   .partner-grid { grid-template-columns:1fr; }
   .partner-card { min-height:auto; }
   .apply-box { max-width:540px; }
