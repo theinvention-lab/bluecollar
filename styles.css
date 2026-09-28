@@ -810,3 +810,71 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   .growth-track-target .growth-track-target-mark { display:none; }
   .growth-track-note { padding:18px 22px; }
 }
+
+
+/* V24 — The Invention Lab industrial partner portfolio */
+.partner-card-til { overflow:hidden; }
+.til-field-partners {
+  margin:2px -6px 28px;
+  padding:22px 20px 18px;
+  border:1px solid #d7dfda;
+  border-radius:10px;
+  background:linear-gradient(180deg,#fbfcfb 0%,#f5f8f6 100%);
+}
+.til-field-partners h4 {
+  margin:0 0 18px;
+  color:var(--deep);
+  font-size:17px;
+  line-height:1.45;
+  letter-spacing:-.035em;
+}
+.til-field-group + .til-field-group { margin-top:18px; }
+.til-field-group-title { display:flex; align-items:center; gap:12px; margin-bottom:12px; }
+.til-field-group-title strong { flex:0 0 auto; color:var(--green); font-size:14px; font-weight:950; }
+.til-field-group-title span { height:1px; flex:1; background:#d8e0db; }
+.til-enterprise-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+.til-partner-tile { min-width:0; }
+.til-logo-box,
+.til-startup-logo {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-width:0;
+  border:1px solid #dbe2de;
+  border-radius:8px;
+  background:#fff;
+}
+.til-logo-box { height:82px; padding:12px 14px; }
+.til-logo-box img { display:block; width:100%; height:100%; max-width:170px; object-fit:contain; }
+.til-logo-box-text strong { color:#31556b; font-size:17px; letter-spacing:-.035em; }
+.til-partner-tile p { margin:8px 2px 0; text-align:center; line-height:1.45; }
+.til-partner-tile p strong { display:block; color:#4d5d54; font-size:10px; font-weight:850; }
+.til-partner-tile p span { display:block; margin-top:3px; color:#707b75; font-size:9.5px; }
+.til-startup-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:9px; }
+.til-startup-logo { height:58px; padding:9px 12px; }
+.til-startup-logo img { display:block; width:100%; height:100%; max-width:126px; object-fit:contain; }
+.partners-disclaimer {
+  margin:14px 4px 0;
+  color:#65716b;
+  font-size:11.5px;
+  line-height:1.65;
+}
+@media (min-width:1180px) {
+  .partner-card-til .partner-copy { padding-bottom:22px; }
+}
+@media (max-width:1180px) and (min-width:921px) {
+  .til-enterprise-grid { grid-template-columns:1fr; }
+  .til-startup-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media (max-width:620px) {
+  .til-field-partners { margin-left:0; margin-right:0; padding:18px 14px 15px; }
+  .til-field-partners h4 { font-size:16px; }
+  .til-enterprise-grid { grid-template-columns:1fr 1fr; }
+  .til-logo-box { height:72px; padding:10px; }
+  .til-startup-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .til-startup-logo { height:56px; }
+  .partners-disclaimer { margin-top:12px; font-size:10.5px; }
+}
+@media (max-width:430px) {
+  .til-enterprise-grid { grid-template-columns:1fr; }
+}
