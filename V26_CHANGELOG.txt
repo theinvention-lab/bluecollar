@@ -1,0 +1,4 @@
+V26
+- Updated all application/support CTAs to direct application URL:
+  https://www.finedeal.co.kr/activities/41/application-preview/38
+- Applied to Home nav CTA, Home program application CTA, mobile application CTA, Case Study nav CTA, and Case Study application CTA.
